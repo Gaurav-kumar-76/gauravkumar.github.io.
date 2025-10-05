@@ -1,0 +1,872 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaurav Kumar - Portfolio | BCA Graduate & Web Developer</title>
+    <meta name="description" content="Portfolio of Gaurav Kumar - BCA Graduate, Web Developer, and Data Analyst from Punjab, India. Specializing in React.js, Node.js, and modern web technologies.">
+    
+    <!-- Preconnect for performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body data-color-scheme="dark">
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">GK</span>
+            </div>
+            
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#experience" class="nav-link">Experience</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            
+            <div class="nav-controls">
+                <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
+                    <i class="fas fa-sun" id="theme-icon"></i>
+                </button>
+                <button class="nav-hamburger" id="nav-hamburger" aria-label="Toggle navigation">
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                </button>
+            </div>
+        </div>
+        
+        <!-- Scroll progress indicator -->
+        <div class="scroll-progress" id="scroll-progress"></div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="floating-shapes">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+                <div class="shape shape-3"></div>
+                <div class="shape shape-4"></div>
+                <div class="shape shape-5"></div>
+            </div>
+        </div>
+        
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        <span class="title-line">Gaurav</span>
+                        <span class="title-line">Kumar</span>
+                    </h1>
+                    <p class="hero-subtitle" id="hero-subtitle">
+                        BCA Graduate | Web Developer | Data Analyst
+                    </p>
+                    <p class="hero-description">
+                        Passionate about creating modern web experiences and analyzing data to drive meaningful insights. Based in Punjab, India.
+                    </p>
+                    
+                    <div class="hero-actions">
+                        <a href="#projects" class="btn btn--primary hero-btn">
+                            <span>View Projects</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                        <a href="#contact" class="btn btn--outline hero-btn">
+                            <span>Get in Touch</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="hero-profile">
+                    <div class="profile-image-container">
+                        <div class="profile-image">
+                            <div class="profile-placeholder">
+                                <i class="fas fa-user"></i>
+                            </div>
+                        </div>
+                        <div class="profile-ring"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="scroll-indicator">
+            <div class="scroll-text">Scroll to explore</div>
+            <div class="scroll-arrow">
+                <i class="fas fa-chevron-down"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <p class="section-subtitle">Get to know me better</p>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-text">
+                    <div class="about-card">
+                        <h3>Hello, I'm Gaurav!</h3>
+                        <p>
+                            A dedicated BCA graduate from Khalsa College of Engineering & Technology with a passion for web development and data analysis. I recently completed my internship at Procmart, where I gained valuable experience in sales and procurement.
+                        </p>
+                        <p>
+                            My journey in technology has been driven by curiosity and a desire to solve real-world problems through code. I specialize in modern web technologies and enjoy turning complex data into actionable insights.
+                        </p>
+                        
+                        <div class="stats-grid">
+                            <div class="stat-item">
+                                <div class="stat-number" data-target="7.10">0</div>
+                                <div class="stat-label">CGPA</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-number" data-target="15">0</div>
+                                <div class="stat-label">Projects</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-number" data-target="3">0</div>
+                                <div class="stat-label">Months Internship</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-number" data-target="2025">0</div>
+                                <div class="stat-label">Graduation</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="about-timeline">
+                    <h3>My Journey</h3>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-marker"></div>
+                            <div class="timeline-content">
+                                <div class="timeline-date">April 2025</div>
+                                <h4>BCA Graduation</h4>
+                                <p>Completed Bachelor of Computer Applications with 7.10/10.00 CGPA</p>
+                            </div>
+                        </div>
+                        
+                        <div class="timeline-item">
+                            <div class="timeline-marker"></div>
+                            <div class="timeline-content">
+                                <div class="timeline-date">Feb - Apr 2025</div>
+                                <h4>Procmart Internship</h4>
+                                <p>Sales & Procurement Department intern, gained hands-on experience in supply chain management</p>
+                            </div>
+                        </div>
+                        
+                        <div class="timeline-item">
+                            <div class="timeline-marker"></div>
+                            <div class="timeline-content">
+                                <div class="timeline-date">Jun - Sep 2024</div>
+                                <h4>Data Analytics Course</h4>
+                                <p>Completed comprehensive certification in data analysis and visualization</p>
+                            </div>
+                        </div>
+                        
+                        <div class="timeline-item">
+                            <div class="timeline-marker"></div>
+                            <div class="timeline-content">
+                                <div class="timeline-date">Nov 2022</div>
+                                <h4>Started BCA Journey</h4>
+                                <p>Began Bachelor of Computer Applications at Khalsa College</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Skills & Expertise</h2>
+                <p class="section-subtitle">Technologies and tools I work with</p>
+            </div>
+            
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3 class="category-title">
+                        <i class="fas fa-code"></i>
+                        Programming Languages
+                    </h3>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">JavaScript</span>
+                                <span class="skill-level">85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="85"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Python</span>
+                                <span class="skill-level">80%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="80"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">C/C++</span>
+                                <span class="skill-level">75%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="75"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">PHP</span>
+                                <span class="skill-level">70%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="70"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Java</span>
+                                <span class="skill-level">65%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="65"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3 class="category-title">
+                        <i class="fas fa-globe"></i>
+                        Web Development
+                    </h3>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">HTML/CSS</span>
+                                <span class="skill-level">90%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="90"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">React.js</span>
+                                <span class="skill-level">85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="85"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Node.js</span>
+                                <span class="skill-level">80%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="80"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Database Management</span>
+                                <span class="skill-level">75%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="75"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Android Programming</span>
+                                <span class="skill-level">70%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="70"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3 class="category-title">
+                        <i class="fas fa-tools"></i>
+                        Tools & Technologies
+                    </h3>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Microsoft Excel</span>
+                                <span class="skill-level">90%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="90"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">VS Code</span>
+                                <span class="skill-level">85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="85"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Google Workspace</span>
+                                <span class="skill-level">85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="85"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Slack</span>
+                                <span class="skill-level">80%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="80"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Git/GitHub</span>
+                                <span class="skill-level">75%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="75"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Featured Projects</h2>
+                <p class="section-subtitle">Some of my recent work and academic projects</p>
+            </div>
+            
+            <div class="projects-filter">
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+                <button class="filter-btn" data-filter="web">Web Development</button>
+                <button class="filter-btn" data-filter="ml">Machine Learning</button>
+                <button class="filter-btn" data-filter="mobile">Mobile Apps</button>
+            </div>
+            
+            <div class="projects-grid">
+                <div class="project-card" data-category="web">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-shopping-cart"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <button class="project-link" onclick="openModal('project1')">
+                                    <i class="fas fa-eye"></i>
+                                    View Details
+                                </button>
+                                <a href="#" class="project-link" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                    Code
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">E-commerce Website</h3>
+                        <p class="project-description">Full-stack e-commerce platform with user authentication and payment integration</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React.js</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">MongoDB</span>
+                        </div>
+                        <div class="project-grade">Grade: A+</div>
+                    </div>
+                </div>
+                
+                <div class="project-card" data-category="ml">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <button class="project-link" onclick="openModal('project2')">
+                                    <i class="fas fa-eye"></i>
+                                    View Details
+                                </button>
+                                <a href="#" class="project-link" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                    Code
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">ML Data Analysis</h3>
+                        <p class="project-description">Comprehensive data analysis using machine learning algorithms for trend prediction</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Pandas</span>
+                            <span class="tech-tag">Scikit-learn</span>
+                        </div>
+                        <div class="project-grade">Grade: A+</div>
+                    </div>
+                </div>
+                
+                <div class="project-card" data-category="mobile">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <button class="project-link" onclick="openModal('project3')">
+                                    <i class="fas fa-eye"></i>
+                                    View Details
+                                </button>
+                                <a href="#" class="project-link" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                    Code
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Android Mobile App</h3>
+                        <p class="project-description">Native Android application with modern UI and API integration</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Java</span>
+                            <span class="tech-tag">Android Studio</span>
+                            <span class="tech-tag">SQLite</span>
+                        </div>
+                        <div class="project-grade">Grade: A</div>
+                    </div>
+                </div>
+                
+                <div class="project-card" data-category="ml">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-robot"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <button class="project-link" onclick="openModal('project4')">
+                                    <i class="fas fa-eye"></i>
+                                    View Details
+                                </button>
+                                <a href="#" class="project-link" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                    Code
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">AI-Powered Chatbot</h3>
+                        <p class="project-description">Intelligent chatbot with natural language processing capabilities</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">TensorFlow</span>
+                            <span class="tech-tag">Flask</span>
+                        </div>
+                        <div class="project-grade">Grade: A+</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Experience & Education</h2>
+                <p class="section-subtitle">My professional journey and academic background</p>
+            </div>
+            
+            <div class="experience-content">
+                <div class="experience-timeline">
+                    <div class="timeline-container">
+                        <div class="timeline-item experience-item">
+                            <div class="timeline-marker">
+                                <i class="fas fa-briefcase"></i>
+                            </div>
+                            <div class="timeline-content">
+                                <div class="timeline-date">Feb 2025 - Apr 2025</div>
+                                <h3>Sales & Procurement Intern</h3>
+                                <h4>Procmart, Amritsar</h4>
+                                <ul class="responsibilities">
+                                    <li>Conducted product sourcing activities and identified reliable suppliers</li>
+                                    <li>Negotiated terms for cost-effective procurement strategies</li>
+                                    <li>Utilized Excel extensively for data analysis and inventory management</li>
+                                    <li>Collaborated with cross-functional teams for timely delivery</li>
+                                    <li>Resolved procurement challenges and optimized supply chain processes</li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                        <div class="timeline-item education-item">
+                            <div class="timeline-marker">
+                                <i class="fas fa-graduation-cap"></i>
+                            </div>
+                            <div class="timeline-content">
+                                <div class="timeline-date">Nov 2022 - Apr 2025</div>
+                                <h3>Bachelor of Computer Applications (BCA)</h3>
+                                <h4>Khalsa College of Engineering & Technology</h4>
+                                <div class="education-details">
+                                    <div class="cgpa">CGPA: 7.10/10.00</div>
+                                    <div class="key-subjects">
+                                        <h5>Key Subjects:</h5>
+                                        <div class="subjects-grid">
+                                            <span class="subject">Web Development (A+)</span>
+                                            <span class="subject">Android Programming</span>
+                                            <span class="subject">Machine Learning</span>
+                                            <span class="subject">Database Management</span>
+                                            <span class="subject">Computer Networks</span>
+                                            <span class="subject">Data Structures</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="timeline-item certification-item">
+                            <div class="timeline-marker">
+                                <i class="fas fa-certificate"></i>
+                            </div>
+                            <div class="timeline-content">
+                                <div class="timeline-date">Jun 2024 - Sep 2024</div>
+                                <h3>Data Analytics Certification</h3>
+                                <h4>Professional Training</h4>
+                                <p>Comprehensive certification in data analysis, Excel proficiency, and visualization techniques</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-subtitle">Let's work together on your next project</p>
+            </div>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <h3>Let's Connect</h3>
+                        <p>I'm always open to discussing new opportunities, interesting projects, or just having a friendly conversation about technology.</p>
+                        
+                        <div class="contact-items">
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                                <div class="contact-details">
+                                    <h4>Email</h4>
+                                    <a href="mailto:Gauravshandlyawork@gmail.com">Gauravshandlyawork@gmail.com</a>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <i class="fas fa-phone"></i>
+                                </div>
+                                <div class="contact-details">
+                                    <h4>Phone</h4>
+                                    <a href="tel:+917667920653">+91 76679 20653</a>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                </div>
+                                <div class="contact-details">
+                                    <h4>Location</h4>
+                                    <span>Punjab, Amritsar, India</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="social-links">
+                            <a href="#" class="social-link" aria-label="LinkedIn">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a href="#" class="social-link" aria-label="GitHub">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="#" class="social-link" aria-label="Twitter">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="#" class="social-link" aria-label="Instagram">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form-container">
+                    <form class="contact-form" id="contact-form">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name" class="form-label">Name</label>
+                                <input type="text" id="name" name="name" class="form-control" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email" class="form-label">Email</label>
+                                <input type="email" id="email" name="email" class="form-control" required>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject" class="form-label">Subject</label>
+                            <input type="text" id="subject" name="subject" class="form-control" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea id="message" name="message" class="form-control" rows="5" required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn--primary btn--full-width">
+                            <span>Send Message</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Gaurav Kumar. All rights reserved.</p>
+                <p>Built with passion using modern web technologies</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Project Modals -->
+    <div id="project1" class="modal hidden">
+        <div class="modal-overlay" onclick="closeModal('project1')"></div>
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeModal('project1')" aria-label="Close modal">
+                <i class="fas fa-times"></i>
+            </button>
+            <div class="modal-header">
+                <h2>E-commerce Website</h2>
+                <div class="project-tech">
+                    <span class="tech-tag">React.js</span>
+                    <span class="tech-tag">Node.js</span>
+                    <span class="tech-tag">MongoDB</span>
+                    <span class="tech-tag">Express.js</span>
+                </div>
+            </div>
+            <div class="modal-body">
+                <p>A comprehensive full-stack e-commerce platform built using modern web technologies. This project demonstrates my ability to create scalable web applications with complex functionality.</p>
+                
+                <h3>Key Features</h3>
+                <ul>
+                    <li>User Authentication & Authorization</li>
+                    <li>Product Management System</li>
+                    <li>Shopping Cart & Checkout Process</li>
+                    <li>Payment Gateway Integration</li>
+                    <li>Admin Dashboard for Management</li>
+                </ul>
+                
+                <h3>Technical Highlights</h3>
+                <ul>
+                    <li>RESTful API design with Express.js</li>
+                    <li>MongoDB for flexible data storage</li>
+                    <li>React.js with modern hooks and context API</li>
+                    <li>Responsive design for all devices</li>
+                    <li>JWT-based authentication system</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div id="project2" class="modal hidden">
+        <div class="modal-overlay" onclick="closeModal('project2')"></div>
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeModal('project2')" aria-label="Close modal">
+                <i class="fas fa-times"></i>
+            </button>
+            <div class="modal-header">
+                <h2>Machine Learning Data Analysis</h2>
+                <div class="project-tech">
+                    <span class="tech-tag">Python</span>
+                    <span class="tech-tag">Pandas</span>
+                    <span class="tech-tag">Scikit-learn</span>
+                    <span class="tech-tag">Matplotlib</span>
+                </div>
+            </div>
+            <div class="modal-body">
+                <p>A comprehensive data analysis project utilizing machine learning algorithms to predict trends and generate actionable insights from large datasets.</p>
+                
+                <h3>Key Features</h3>
+                <ul>
+                    <li>Data Preprocessing & Cleaning</li>
+                    <li>Predictive Modeling</li>
+                    <li>Statistical Analysis</li>
+                    <li>Interactive Visualizations</li>
+                    <li>Report Generation</li>
+                </ul>
+                
+                <h3>Technical Implementation</h3>
+                <ul>
+                    <li>Advanced data manipulation with Pandas</li>
+                    <li>Machine learning models for prediction</li>
+                    <li>Data visualization with Matplotlib and Seaborn</li>
+                    <li>Statistical analysis and hypothesis testing</li>
+                    <li>Model evaluation and optimization</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div id="project3" class="modal hidden">
+        <div class="modal-overlay" onclick="closeModal('project3')"></div>
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeModal('project3')" aria-label="Close modal">
+                <i class="fas fa-times"></i>
+            </button>
+            <div class="modal-header">
+                <h2>Android Mobile Application</h2>
+                <div class="project-tech">
+                    <span class="tech-tag">Java</span>
+                    <span class="tech-tag">Android Studio</span>
+                    <span class="tech-tag">SQLite</span>
+                    <span class="tech-tag">REST API</span>
+                </div>
+            </div>
+            <div class="modal-body">
+                <p>A native Android application built with modern UI/UX design principles, featuring local database storage and seamless API integration.</p>
+                
+                <h3>Key Features</h3>
+                <ul>
+                    <li>Native Android UI with Material Design</li>
+                    <li>Local SQLite Database Storage</li>
+                    <li>REST API Integration</li>
+                    <li>User Authentication</li>
+                    <li>Real-time Data Synchronization</li>
+                </ul>
+                
+                <h3>Development Highlights</h3>
+                <ul>
+                    <li>Java programming with Android SDK</li>
+                    <li>Material Design components</li>
+                    <li>SQLite database management</li>
+                    <li>Network communication with Retrofit</li>
+                    <li>Responsive layouts for different screen sizes</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div id="project4" class="modal hidden">
+        <div class="modal-overlay" onclick="closeModal('project4')"></div>
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeModal('project4')" aria-label="Close modal">
+                <i class="fas fa-times"></i>
+            </button>
+            <div class="modal-header">
+                <h2>AI-Powered Chatbot</h2>
+                <div class="project-tech">
+                    <span class="tech-tag">Python</span>
+                    <span class="tech-tag">TensorFlow</span>
+                    <span class="tech-tag">NLP</span>
+                    <span class="tech-tag">Flask</span>
+                </div>
+            </div>
+            <div class="modal-body">
+                <p>An intelligent chatbot system using natural language processing to provide automated customer support and query resolution with continuous learning capabilities.</p>
+                
+                <h3>Key Features</h3>
+                <ul>
+                    <li>Natural Language Processing</li>
+                    <li>Intent Recognition & Classification</li>
+                    <li>Dynamic Response Generation</li>
+                    <li>Continuous Learning Capability</li>
+                    <li>Multi-language Support</li>
+                </ul>
+                
+                <h3>AI Implementation</h3>
+                <ul>
+                    <li>TensorFlow for neural network models</li>
+                    <li>NLP libraries for text processing</li>
+                    <li>Flask web framework for API</li>
+                    <li>Machine learning for pattern recognition</li>
+                    <li>Real-time conversation handling</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Custom JavaScript -->
+    <script src="app.js"></script>
+</body>
+</html>
